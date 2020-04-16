@@ -1,0 +1,59 @@
+#google-search {
+    background-color: white;
+}
+
+#logo {
+    margin: 0 auto;
+    padding: 15px;
+    background-color: white;
+    width: min-content;
+    
+}
+
+#logo img {
+    width: 20em
+    
+}
+
+#search {
+    margin: 0 auto;
+    padding: 14px 14px;
+    width: 575px;
+    background-color: white;
+    border: 0px solid;
+    border-radius: 25px;
+    box-shadow: .5px .5px 15px .1px rgba(0,0,0,0.3);
+}
+
+#search img {
+    display: inline-block;
+    position: absolute;
+    width: 1.6em;
+    margin: 0px auto;
+    opacity: .7;
+}
+
+#text-input {
+    display: block;
+    width: 500px;
+    border: 0px solid;
+    margin: 0 auto;
+    background-color: white;
+}
+
+#buttons {
+    width: 300px;
+    margin: 25px auto;
+    padding: 0 auto;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.button {
+    padding: 10px 10px;
+    box-shadow: 0px .5px 5px .1px rgba(0,0,0,0.3);
+    background-color: #f8f8f8;
+    border: 0px solid #c6c6c6;
+}
