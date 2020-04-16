@@ -1,17 +1,59 @@
+
+/******* Header Navbar *******/
+
+ header ul{
+    list-style-type: none;
+    overflow: hidden;
+    margin: 12.5px 15px;
+}
+ 
+.nav-right {
+    float: right;
+}
+
+.nav-left {
+    float: left;
+}
+
+header ul li {
+    display: block;
+    padding: 9px;
+}
+
+header ul li a {
+    text-align: center;
+    color: rgb(51, 51, 51);
+    text-decoration: none;
+    font-size: 13px;
+    font-family: monospace;
+}
+
+#menu {
+    opacity: .7;
+    margin-top: -2px;
+}
+
+#profile {
+    width: 3em;
+    margin-top: -9px;
+}
+
+/******* Main Content *******/
+
 #google-search {
     background-color: white;
 }
 
 #logo {
     margin: 0 auto;
-    padding: 15px;
+    padding: 20px;
     background-color: white;
     width: min-content;
-    
+    margin-top: 80px;
 }
 
 #logo img {
-    width: 20em
+    width: 22.5em
     
 }
 
@@ -42,8 +84,8 @@
 }
 
 #buttons {
-    width: 300px;
-    margin: 25px auto;
+    width: 310px;
+    margin: 35px auto;
     padding: 0 auto;
     background-color: white;
     display: flex;
@@ -52,8 +94,19 @@
 }
 
 .button {
-    padding: 10px 10px;
+    padding: 10px 20px;
     box-shadow: 0px .5px 5px .1px rgba(0,0,0,0.3);
     background-color: #f8f8f8;
     border: 0px solid #c6c6c6;
+    border-radius: 5px;
+}
+
+.button:hover {
+    box-shadow: 0px .5px 10px .1px rgba(0,0,0,0.3);
+    font-weight: 600;
+    cursor: pointer;
+}
+
+#search:hover {
+    box-shadow: 0px .5px 15px .1px rgba(0,0,0,0.5);
 }
